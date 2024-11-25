@@ -30,7 +30,7 @@ export PYTHONPATH=~/your_path_to_directory/directory_name
 To install all packages from requirements.txt, run the following command:
 
 ```bash
-pip install -r requirements.txt
+pip install -e .
 ```
 
 ### Usage
