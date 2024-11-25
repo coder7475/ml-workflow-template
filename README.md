@@ -31,3 +31,33 @@ To install all packages from requirements.txt, run the following command:
 ```bash
 pip install -r requirements.txt
 ```
+
+### Directory Structure
+
+```bash
+├── data-source
+├── src
+│   ├── __init__.py
+│   ├── components
+│   │   ├── __init__.py
+│   │   ├── data_ingestion.py
+│   │   ├── data_transformation.py
+│   │   ├── model_monitoring.py
+│   │   └── model_trainer.py
+│   ├── exception.py
+│   ├── logger.py
+│   ├── pipelines
+│   │   ├── __init__.py
+│   │   ├── prediction_pipeline.py
+│   │   └── training_pipeline.py
+│   └── utils.py
+├── .gitignore
+├── main.py
+├── app.py
+├── EDA.ipynb
+├── README.md
+├── requirements.txt
+├── folder_structure_setup.sh
+├── test-logging-integration.py
+└── test-request.py
+```
