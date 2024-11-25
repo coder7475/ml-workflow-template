@@ -24,6 +24,7 @@ To activate the Python virtual environment, navigate to the project directory in
 
 ```bash
 source venv/bin/activate
+export PYTHONPATH=~/your_path_to_directory/directory_name
 ```
 
 To install all packages from requirements.txt, run the following command:
