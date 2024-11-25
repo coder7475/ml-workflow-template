@@ -32,6 +32,14 @@ To install all packages from requirements.txt, run the following command:
 pip install -r requirements.txt
 ```
 
+### Usage
+
+First run the the setup python file to initialize:
+
+```bash
+python3 setup.py
+```
+
 ### Directory Structure
 
 ```bash
