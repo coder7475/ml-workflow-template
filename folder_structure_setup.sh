@@ -17,6 +17,7 @@ list_of_files=(
     "main.py"
     "app.py"
     "EDA.ipynb"
+    "setup.py"
     "test-request.py"
     "test-logging-integration.py"
 )
